@@ -1,3 +1,7 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -78,6 +82,11 @@ header {
   margin: 25px 17px;
 }
 
+.xbox::before {
+  content: url(../img/line.svg);
+  margin-right: 25px;
+}
+
 .header-bottom__title {
   margin: 0;
   padding-top: 250px;
@@ -111,6 +120,9 @@ header {
   border: none;
   cursor: pointer;
   margin-top: 28px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .story {
@@ -123,5 +135,13 @@ header {
   font-weight: bold;
   font-size: 12px;
   line-height: 22px;
+}
+
+.story__link {
+  color: #fff;
+}
+
+.story__scroll {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

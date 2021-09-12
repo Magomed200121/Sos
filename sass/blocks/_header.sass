@@ -38,6 +38,9 @@ header
 
 .xbox
     margin: 25px 17px
+    &::before
+        content: url(../img/line.svg)
+        margin-right: 25px
 
 .header-bottom
     &__title
@@ -69,7 +72,11 @@ header
         border: none
         cursor: pointer
         margin-top: 28px
+        font-weight: bold
+        font-size: 16px
+        line-height: 22px
 
+    
 .story
     display: block
     margin-top: 363px
@@ -80,3 +87,7 @@ header
     font-weight: bold
     font-size: 12px
     line-height: 22px
+    &__link
+        color: #fff
+    &__scroll
+        display: block
